@@ -1,0 +1,16 @@
+/* body{
+   
+    }; */
+
+* {
+    cursor: url("../images/GuitarCursor.cur"),  default;
+}
+.cursor{
+background-size: cover;
+background-color: rgb(55, 55, 55);
+color: white;
+display: flex;
+justify-content: center;
+align-items: center;
+cursor: url("../images/GuitarCursor.png")
+};
