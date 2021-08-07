@@ -47,8 +47,10 @@ nav {
     /* border: solid red 1px; */
     display: flex;
     flex-direction: row;
+    align-items: flex-end;
     z-index: 1;
     position: absolute;
+    margin: 0px 30%;
     bottom: 3%;
     font-family: "Yantramanav", Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -69,7 +71,7 @@ nav {
     display: flex;
     flex-direction: row;
     align-items: flex-end;
-    margin: 0px 0px 0px 80%;
+    margin: 0;
 }
 
 .navWrapper a {
@@ -78,14 +80,14 @@ nav {
     letter-spacing: 0.0625em;
     display: flex;
     flex-direction: row;
+    justify-content: end;
     padding: 0px 25px 0px 25px;
     margin: 0;
     font-family: "Yantramanav", Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 300;
     color: white;
     position: relative;
-    bottom: 5px;
-    left: 40%;
+    
 
 }
 
