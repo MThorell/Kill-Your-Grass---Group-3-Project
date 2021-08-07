@@ -26,7 +26,6 @@ nav {
     position: relative;
     bottom: 0%;
     z-index: -1;
-
 }
 
 #navGrass{
@@ -40,7 +39,7 @@ nav {
     opacity: 50%;
     position: absolute;
     bottom: 0;
-    z-index: -0.5;
+    z-index: -5;
 }
 
 .navText {
@@ -57,14 +56,13 @@ nav {
 
 .primaryLogo {
     /* border: solid red 1px; */
-    width: 150px;
+    width: 350px;
     height: auto;
-    margin: auto;
-    padding: 5px 45px;
+    margin: 10px;
+    padding: 20px 50px;
     display: flex;
     align-items: flex-start;
     z-index: 2;
-
 }
 
 .navWrapper {
@@ -72,10 +70,11 @@ nav {
     flex-direction: row;
     align-items: flex-end;
     margin: 0;
+    justify-content: space-between;
 }
 
 .navWrapper a {
-    border-left: solid white 1px;
+    border-left: solid white 1px ;
     /* border-right: solid white 1px; */
     letter-spacing: 0.0625em;
     display: flex;
@@ -87,17 +86,24 @@ nav {
     font-weight: 300;
     color: white;
     position: relative;
-    
-
+    text-decoration: none;
 }
 
 #navResources {
     border-right: solid white 1px;
 }
-.pageTitle {
-    font-family: 'Black Ops One', cursive;
-    font-size: 58px;
-    color: #3C93C5;
-    padding: 45px 45px 45px 100px;
 
+.navItems {
+
+}
+
+.heroImage img {
+    height: 100%;
+    width: 100%;
+}
+
+.aboutUs div {
+    height: 90%;
+    width: 90%;
+    background-color: white;
 }
