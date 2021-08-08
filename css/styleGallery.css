@@ -2,9 +2,12 @@
    
     }; */
 
-/* * {
+* {
     cursor: url("../images/GuitarCursor.cur"),  default;
-} */
+}
+a {
+    cursor: url("../images/GuitarCursorHover.cur"), default; 
+ }
 /* .cursor{
 background-size: cover;
 background-color: rgb(55, 55, 55);
@@ -26,7 +29,7 @@ nav {
     align-items: center;
     position: relative;
     bottom: 0%;
-    z-index: -1;
+    z-index: 0;
 
 }
 /* .headerWrapper {
@@ -128,12 +131,22 @@ nav {
 .galleryCard img {
     overflow: hidden;
 }
+
+.additionalGallery {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-flow: wrap;
+    display: none;
+}
 .btnWrapper {
     margin: 25px 0px 60px 0px;
     display: flex;
     justify-content: center;
 }
-.moreImagesBtn {
+#moreImagesBtn {
     width: 250px;
     display: flex;
     flex: row;
@@ -141,7 +154,7 @@ nav {
     text-align: center;
     background-color:#FFAD3E;
     color: white;
-    font-family: inherit;
+    font-family: "Yantramanav", Verdana, Geneva, Tahoma, sans-serif;
     text-decoration: none;
     padding: 7px 0px 7px 0px;
     border-radius: 3px;
@@ -157,7 +170,6 @@ button {
     letter-spacing: 0.0625em;
     border-radius: 3px;
 
-
 }
 footer {
     height: 150px;
@@ -170,7 +182,7 @@ footer {
     align-items: center;
     position: relative;
     margin: auto;
-    z-index: -1;
+    z-index: 1;
 
 }
 .footerText {
