@@ -1,0 +1,51 @@
+/* body{
+   
+    }; */
+.contentWrapper {
+    display: Flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+
+.resourceCard {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border: solid #707070 1px;
+    margin: 50px 90px 8px 90px;
+}
+.resourceLogo img {
+    max-width: 400px;
+    height: auto;
+    padding: 25px;
+}
+.cardTextWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: auto 0;
+    padding: 15px;
+}
+.resourceCardText {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    color: #707070;
+    font-family: "Yantramanav", Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:300;
+    letter-spacing: 0.0625em;
+    padding: 0px 90px 40px 40px;
+    margin: auto 0;
+    text-decoration: none;
+}
+
+.learnMore {
+    color: #707070;
+    font-family: "Yantramanav", Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    letter-spacing: 0.0625em;
+    padding: 50px 0px 0px 40px;
+    margin: auto 0;
+    text-decoration: none;
+}
