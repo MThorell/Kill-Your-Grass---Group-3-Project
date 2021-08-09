@@ -1,0 +1,227 @@
+/* body{
+   
+    }; */
+
+* {
+    cursor: url("../images/GuitarCursor.cur"),  default;
+}
+a {
+    cursor: url("../images/GuitarCursorHover.cur"), default; 
+ }
+/* .cursor{
+background-size: cover;
+background-color: rgb(55, 55, 55);
+color: white;
+display: flex;
+justify-content: center;
+align-items: center;
+cursor: url("../images/GuitarCursor.png")
+}; */
+
+nav {
+
+    background-color: #7BC351;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    /* border: solid red 1px; */
+    overflow: hidden;
+    align-items: center;
+    position: relative;
+    bottom: 0%;
+    z-index: 0;
+
+}
+/* .headerWrapper {
+    
+} */
+
+#navGrass{
+    background-repeat: repeat-x;
+    width: 100%;
+    /* max-height: 50%; */
+    /* border: solid red 1px; */
+    display: flex;
+    flex: auto;
+    align-items:baseline;
+    opacity: 50%;
+    position: absolute;
+    bottom: 0;
+    z-index: -2;
+}
+
+.navText {
+    /* border: solid red 1px; */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    z-index: 1;
+    position: absolute;
+    margin: 0px 30%;
+    bottom: 3%;
+    font-family: "Yantramanav", Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.primaryLogo {
+    /* border: solid red 1px; */
+    width: 150px;
+    height: auto;
+    margin: auto;
+    padding: 5px 45px;
+    display: flex;
+    align-items: flex-start;
+    z-index: 1;
+
+}
+
+.navWrapper {
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    margin: 0;
+}
+
+.navWrapper a {
+    
+    border-left: solid white 1px;
+    /* border-right: solid white 1px; */
+    letter-spacing: 0.0625em;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    padding: 0px 25px 0px 25px;
+    margin: 0;
+    font-family: "Yantramanav", Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 300;
+    color: white;
+    position: relative;
+    text-decoration: none;
+    
+
+}
+
+#navResources {
+    border-right: solid white 1px;
+}
+.pageTitle {
+    font-family: 'Black Ops One', cursive;
+    font-size: 58px;
+    color: #3C93C5;
+    padding: 45px 45px 10px 85px;
+}
+.secTitle {
+    font-family: "Yantramanav", Verdana, Geneva, Tahoma, sans-serif;
+    color: #707070;
+    font-size: 28px;
+    font-weight: 300;
+    text-align: center;
+}
+.faqTileWrapper {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-flow: wrap;
+}
+
+.faqCard {
+    /* border: solid red 1px; */
+    width: 250px;
+    height: 250px;
+    padding: 25px;
+    margin: 5px;
+    overflow: hidden;
+}
+
+.galleryCard img {
+    overflow: hidden;
+}
+
+.additionalGallery {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-flow: wrap;
+    display: none;
+}
+h2 {
+    font-family: "Yantramanav", Verdana, Geneva, Tahoma, sans-serif; 
+    font-weight: 300;
+    letter-spacing: 0.0625em;
+}
+.faqAccordian {
+    width: 90%;
+    display:block;
+    text-align: center;
+    margin: auto;
+    padding: 50px;
+}
+.accordion {
+    background-color: #7BC351;
+    font-family: "Yantramanav", Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+
+}
+.accordion-button {
+    background-color: #7BC351;
+    font-family: "Yantramanav", Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.0625em;
+    color:white;
+
+}
+.accordion-header {
+    color: #7BC351;    
+}
+.accordion-button::after{
+    background-color: #7BC351;
+    color: white;
+}
+button.accordion-button.collapsed::after {
+    color: white;
+    font-weight: 500;
+}
+.accordion-body {
+    color: #7BC351;
+    background-color: #EDEDED;
+    font-family: "Yantramanav", Verdana, Geneva, Tahoma, sans-serif; 
+    font-weight: 400;
+    letter-spacing: 0.0625em;
+    text-align: left;
+    padding: 10px 50px 10px 20px;
+}
+.accordion-item {
+    background-color:#7BC351;
+    font-family: "Yantramanav", Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 300;
+    color: white;
+}
+footer {
+    height: 150px;
+    background-color: #7BC351;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    /* border: solid red 1px; */
+    overflow: hidden;
+    align-items: center;
+    position: relative;
+    margin: auto;
+    z-index: 1;
+
+}
+.footerText {
+    /* border: solid red 1px; */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    z-index: 1;
+    position: absolute;
+    margin: 0px 30%;
+    top: 50%;
+    font-family: "Yantramanav", Verdana, Geneva, Tahoma, sans-serif;
+}
