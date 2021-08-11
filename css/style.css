@@ -10,6 +10,9 @@
 a {
    cursor: url("../images/GuitarCursorHover.cur"), default; 
 }
+a:any-link{
+    color: -webkit-link;
+}
 button {
     cursor: url("../images/GuitarCursorHover.cur"), default; 
  }
@@ -62,7 +65,7 @@ nav {
     display: flex;
     flex-direction: row;
     align-items: flex-end;
-    z-index: 1;
+    z-index: 0;
     position: absolute;
     margin: 0px 30%;
     bottom: 3%;
@@ -82,15 +85,16 @@ nav {
 
 .navWrapper {
     display: flex;
-    flex-direction: row;
+    flex-direction: row; 
     align-items: flex-end;
     margin: 0;
     justify-content: space-between;
 }
-
-.navWrapper a {
+.nav-item {
     border-left: solid white 1px ;
-    /* border-right: solid white 1px; */
+}
+.navWrapper a {
+  
     letter-spacing: 0.0625em;
     display: flex;
     flex-direction: row;
@@ -101,7 +105,7 @@ nav {
     font-weight: 300;
     color: white;
     position: relative;
-    text-decoration: none;
+    /* text-decoration: none; */
 }
 
 #navResources {
