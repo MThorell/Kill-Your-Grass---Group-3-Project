@@ -1,3 +1,18 @@
+
+/* body{
+   
+    }; */
+/* 
+* {
+    cursor: url("../images/GuitarCursor.cur"), default;
+}
+a {
+   cursor: url("../images/GuitarCursorHover.cur"), default; 
+}
+button {
+    cursor: url("../images/GuitarCursorHover.cur"), default; 
+ } */
+
 /* * {
     cursor: url("../images/GuitarCursor.cur"),  default;
 } */
@@ -129,6 +144,6 @@ nav {
 } */
 
 .body-after-hero {
-    background-image: url(/images/HOMEPAGE/BACKGROUND-gradient.png);
+    background-image: url("../images/HOMEPAGE/BACKGROUND-gradient.png");
     background-repeat: none;
 }
