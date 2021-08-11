@@ -43,9 +43,7 @@ nav {
     align-items: center;
     position: relative;
     bottom: 0%;
-
-    z-index: 0;
-
+    z-index: -1;
 }
 
 #navGrass{
@@ -59,9 +57,7 @@ nav {
     opacity: 50%;
     position: absolute;
     bottom: 0;
-
     z-index: -5;
-
 }
 
 .navText {
@@ -116,10 +112,6 @@ nav {
     border-right: solid white 1px;
 }
 
-.navItems {
-
-}
-
 .heroImage img {
     height: 100%;
     width: 100%;
@@ -141,18 +133,28 @@ nav {
     display: inline-block;
     padding: 50px;
     margin-top: 100px;
+}
+
+.card-columns {
+    max-width: 1500px;
     margin-left: auto;
     margin-right: auto;
 }
 
 .faqs {
     margin-top: -1000px;
-    max-width: 1000px;
+    max-width: auto;
+    margin-left: auto;
+    margin-right: auto; 
 }
-/* 
-.background-gradient {
-    margin-top: -1600px;
-} */
+
+.col-md-4 {
+    padding: 0px !important;
+}
+
+.FAQimage {
+    width: 100%;
+}
 
 .body-after-hero {
     background-image: url("../images/HOMEPAGE/BACKGROUND-gradient.png");
