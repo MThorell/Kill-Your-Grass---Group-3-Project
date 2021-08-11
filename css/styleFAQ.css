@@ -110,7 +110,14 @@ nav {
     color: #3C93C5;
     padding: 45px 45px 10px 85px;
 }
-.galleryWrapper {
+.secTitle {
+    font-family: "Yantramanav", Verdana, Geneva, Tahoma, sans-serif;
+    color: #707070;
+    font-size: 28px;
+    font-weight: 300;
+    text-align: center;
+}
+.faqTileWrapper {
     width: 100%;
     height: auto;
     display: flex;
@@ -119,13 +126,33 @@ nav {
     flex-flow: wrap;
 }
 
-.galleryCard {
+.faqCard {
     /* border: solid red 1px; */
-    width: 425px;
-    height: auto;
+    position: relative;
+    width: 250px;
+    height: 250px;
     padding: 25px;
     margin: 5px;
     overflow: hidden;
+}
+.faqCard img{
+    width:250px;
+    height: auto;
+
+}
+.cardTextOverlay {
+    background: white;
+    position: absolute;
+    bottom: 30%;
+    opacity: 0.75;
+    width: 225px;
+    margin: auto;
+    padding: 20px 0px;
+    z-index: 1;
+    font-family: "Yantramanav", Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    color: #707070;
+    text-align: center;
 }
 
 .galleryCard img {
@@ -141,35 +168,73 @@ nav {
     flex-flow: wrap;
     display: none;
 }
-.btnWrapper {
-    margin: 25px 0px 60px 0px;
-    display: flex;
-    justify-content: center;
-}
-#moreImagesBtn {
-    width: 250px;
-    display: flex;
-    flex: row;
-    justify-content: center;
-    text-align: center;
-    background-color:#FFAD3E;
-    color: white;
-    font-family: "Yantramanav", Verdana, Geneva, Tahoma, sans-serif;
-    text-decoration: none;
-    padding: 7px 0px 7px 0px;
-    border-radius: 3px;
-}
-
-button {
-    outline: none;
-    color: white;
-    background: transparent;
-    border: none;
-    font-size: 18px;
-    font-weight: 500;
+h2 {
+    font-family: "Yantramanav", Verdana, Geneva, Tahoma, sans-serif; 
+    font-weight: 300;
     letter-spacing: 0.0625em;
-    border-radius: 3px;
+}
+.faqAccordian {
+    width: 90%;
+    display:block;
+    text-align: center;
+    margin: auto;
+    padding: 50px;
+}
+.accordion {
+    background-color: #7BC351;
+    font-family: "Yantramanav", Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
 
+}
+.accordion-button {
+    background-color: #7BC351;
+    font-family: "Yantramanav", Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.0625em;
+    color:white;
+
+}
+.accordion-header {
+    color: #7BC351;    
+}
+.accordion-button::after{
+    background-color: #7BC351;
+    color: white;
+}
+button.accordion-button.collapsed::after {
+    color: white;
+    font-weight: 500;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+}
+/* button.accordion-button.collapsed::after img {
+    img src=""
+} */
+.accordion-button.collapsed {
+    background-color: #7BC351;
+    color:white;
+}
+.accordion-button:not(.collapsed) {
+    background-color: #7BC351;
+    color:white;
+}
+.accordion-button:not(.collapsed)::after {
+    background-color: #7BC351;
+    color:white;
+}
+.accordion-body {
+    color: #7BC351;
+    background-color: #EDEDED;
+    font-family: "Yantramanav", Verdana, Geneva, Tahoma, sans-serif; 
+    font-weight: 400;
+    letter-spacing: 0.0625em;
+    text-align: left;
+    padding: 10px 50px 10px 20px;
+}
+.accordion-item {
+    background-color:#7BC351;
+    font-family: "Yantramanav", Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 300;
+    color: white;
 }
 footer {
     height: 150px;
