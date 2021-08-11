@@ -7,8 +7,9 @@
 }
 a {
     cursor: url("../images/GuitarCursorHover.cur"), default; 
-    text-decoration: initial;
- }
+}
+
+
 
 .pageTitle {
     font-family: 'Black Ops One', cursive;

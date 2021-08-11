@@ -9,7 +9,9 @@
 }
 a {
    cursor: url("../images/GuitarCursorHover.cur"), default; 
-   text-decoration: inherit;
+}
+a:any-link{
+    color: -webkit-link;
 }
 button {
     cursor: url("../images/GuitarCursorHover.cur"), default; 
