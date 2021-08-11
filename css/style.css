@@ -186,3 +186,7 @@ footer {
     top: 50%;
     font-family: "Yantramanav", Verdana, Geneva, Tahoma, sans-serif;
 }
+#navBenefits, #navGallery, #navFAQ, #navResources {
+    border-left: solid white 1px;
+    text-decoration: none;
+}
