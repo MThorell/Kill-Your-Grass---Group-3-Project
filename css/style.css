@@ -149,6 +149,32 @@ nav {
 } */
 
 .body-after-hero {
-    background-image: url(/images/HOMEPAGE/BACKGROUND-gradient.png);
+    background-image: url("../images/HOMEPAGE/BACKGROUND-gradient.png");
     background-repeat: none;
+}
+
+footer {
+    /* height: 150px; */
+    background-color: #7BC351;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    /* border: solid red 1px; */
+    overflow: hidden;
+    align-items: center;
+    position: relative;
+    margin: auto;
+    z-index: 1;
+
+}
+.footerText {
+    /* border: solid red 1px; */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    z-index: 1;
+    position: absolute;
+    margin: 0px 30%;
+    top: 50%;
+    font-family: "Yantramanav", Verdana, Geneva, Tahoma, sans-serif;
 }
