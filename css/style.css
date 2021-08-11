@@ -141,6 +141,7 @@ nav {
 
 .faqs {
     margin-top: -1000px;
+    max-width: 1000px;
 }
 /* 
 .background-gradient {
