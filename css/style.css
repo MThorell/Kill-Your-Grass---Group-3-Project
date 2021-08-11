@@ -1,3 +1,4 @@
+
 /* body{
    
     }; */
@@ -11,6 +12,11 @@ a {
 button {
     cursor: url("../images/GuitarCursorHover.cur"), default; 
  }
+
+/* * {
+    cursor: url("../images/GuitarCursor.cur"),  default;
+} */
+
 /* .cursor{
 background-size: cover;
 background-color: rgb(55, 55, 55);
@@ -20,6 +26,7 @@ justify-content: center;
 align-items: center;
 cursor: url("../images/GuitarCursor.png")
 }; */
+
 
 nav {
     background-color: #7BC351;
@@ -31,7 +38,8 @@ nav {
     align-items: center;
     position: relative;
     bottom: 0%;
-    z-index: 0;
+
+    z-index: -1;
 
 }
 
@@ -46,7 +54,9 @@ nav {
     opacity: 50%;
     position: absolute;
     bottom: 0;
-    z-index: -2;
+
+    z-index: -5;
+
 }
 
 .navText {
@@ -63,14 +73,13 @@ nav {
 
 .primaryLogo {
     /* border: solid red 1px; */
-    width: 150px;
+    width: 350px;
     height: auto;
-    margin: auto;
-    padding: 5px 45px;
+    margin: 10px;
+    padding: 20px 50px;
     display: flex;
     align-items: flex-start;
     z-index: 2;
-
 }
 
 .navWrapper {
@@ -78,10 +87,11 @@ nav {
     flex-direction: row;
     align-items: flex-end;
     margin: 0;
+    justify-content: space-between;
 }
 
 .navWrapper a {
-    border-left: solid white 1px;
+    border-left: solid white 1px ;
     /* border-right: solid white 1px; */
     letter-spacing: 0.0625em;
     display: flex;
@@ -93,17 +103,51 @@ nav {
     font-weight: 300;
     color: white;
     position: relative;
-    
-
+    text-decoration: none;
 }
 
 #navResources {
     border-right: solid white 1px;
 }
-.pageTitle {
-    font-family: 'Black Ops One', cursive;
-    font-size: 58px;
-    color: #3C93C5;
-    padding: 45px 45px 45px 100px;
 
+.navItems {
+
+}
+
+.heroImage img {
+    height: 100%;
+    width: 100%;
+}
+
+.card {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;  
+}
+
+.card-title {
+    font-family: "Yantramanav", Verdana, Geneva, Tahoma, sans-serif;
+    color: #3A8FD9;
+    font-size: 50px;
+}
+
+.cards {
+    display: inline-block;
+    padding: 50px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.faqs {
+    margin-top: -1000px;
+}
+/* 
+.background-gradient {
+    margin-top: -1600px;
+} */
+
+.body-after-hero {
+    background-image: url(/images/HOMEPAGE/BACKGROUND-gradient.png);
+    background-repeat: none;
 }
