@@ -1,6 +1,22 @@
+
+/* body{
+   
+    }; */
+
+* {
+    cursor: url("../images/GuitarCursor.cur"), default;
+}
+a {
+   cursor: url("../images/GuitarCursorHover.cur"), default; 
+}
+button {
+    cursor: url("../images/GuitarCursorHover.cur"), default; 
+ }
+
 /* * {
     cursor: url("../images/GuitarCursor.cur"),  default;
 } */
+
 /* .cursor{
 background-size: cover;
 background-color: rgb(55, 55, 55);
@@ -22,7 +38,9 @@ nav {
     align-items: center;
     position: relative;
     bottom: 0%;
+
     z-index: -1;
+
 }
 
 #navGrass{
@@ -36,7 +54,9 @@ nav {
     opacity: 50%;
     position: absolute;
     bottom: 0;
+
     z-index: -5;
+
 }
 
 .navText {
