@@ -11,7 +11,7 @@ a {
    cursor: url("../images/GuitarCursorHover.cur"), default; 
 }
 a:any-link{
-    color: -webkit-link;
+    color: white;
 }
 button {
     cursor: url("../images/GuitarCursorHover.cur"), default; 
