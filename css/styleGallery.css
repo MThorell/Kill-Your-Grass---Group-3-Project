@@ -8,7 +8,9 @@
 a {
     cursor: url("../images/GuitarCursorHover.cur"), default; 
 }
-
+.nav-link:hover {
+    color: blue;
+}
 
 
 .pageTitle {

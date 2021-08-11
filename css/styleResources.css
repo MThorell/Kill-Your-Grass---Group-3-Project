@@ -1,6 +1,10 @@
 /* body{
    
     }; */
+
+.nav-link:hover {
+    color: blue;
+}
 .contentWrapper {
     display: Flex;
     flex-direction: column;
