@@ -15,109 +15,98 @@
     cursor: url("../images/GuitarCursor.png")
     }; */
     
-    nav {
-        background-color: #7BC351;
-        background-size: cover;
-        display: flex;
-        flex-direction: row;
-        /* border: solid red 1px; */
-        overflow: hidden;
-        align-items: center;
-        position: relative;
-        bottom: 0%;
-        z-index: -1;
-    
-    }
-    
-    #navGrass{
-        background-repeat: repeat-x;
-        width: 100%;
-        /* max-height: 50%; */
-        /* border: solid red 1px; */
-        display: flex;
-        flex: auto;
-        align-items:baseline;
-        opacity: 50%;
-        position: absolute;
-        bottom: 0;
-        z-index: -0.5;
-    }
-    
-    .navText {
-        /* border: solid red 1px; */
-        display: flex;
-        flex-direction: row;
-        align-items: flex-end;
-        z-index: 1;
-        position: absolute;
-        margin: 0px 30%;
-        bottom: 3%;
-        font-family: "Yantramanav", Verdana, Geneva, Tahoma, sans-serif;
-    }
-    
-    .primaryLogo {
-        /* border: solid red 1px; */
-        width: 150px;
-        height: auto;
-        margin: auto;
-        padding: 5px 45px;
-        display: flex;
-        align-items: flex-start;
-        z-index: 1;
-    
-    }
-    
-    .navWrapper {
-        display: flex;
-        flex-direction: row;
-        align-items: flex-end;
-        margin: 0;
-    }
-    
-    .navWrapper a {
-        border-left: solid white 1px;
-        /* border-right: solid white 1px; */
-        letter-spacing: 0.0625em;
-        display: flex;
-        flex-direction: row;
-        justify-content: end;
-        padding: 0px 25px 0px 25px;
-        margin: 0;
-        font-family: "Yantramanav", Verdana, Geneva, Tahoma, sans-serif;
-        font-weight: 300;
-        color: white;
-        position: relative;
-        
-    
-    }
-    
-    #navResources {
-        border-right: solid white 1px;
+nav {
+    background-color: #7BC351;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    /* border: solid red 1px; */
+    overflow: hidden;
+    align-items: center;
+    position: relative;
+    bottom: 0%;
+    z-index: 0;
+}
 
-            h1{
-            display: flex;
-            align-content: left;
-            flex-wrap: wrap;
-            padding: 30px;
-            margin: 60px;
-            font-family: "sans"; serif
-              
-            h2{
-            display: flex;
-            align-content: left;
-            flex-wrap: wrap;
-            padding: 30px;
-            margin: 60px;
-            }  
-            
-          }
-            .col{
-            display: flex;
-            justify-content: space-around;
-            padding: 30px;
-            margin: 60px;
-            flex-wrap: wrap;
-            text-align: left;
-            font-family: "verdena", sans-serif
-          }
-          
+#navGrass{
+    background-repeat: repeat-x;
+    width: 100%;
+    /* max-height: 50%; */
+    /* border: solid red 1px; */
+    display: flex;
+    flex: auto;
+    align-items:baseline;
+    opacity: 50%;
+    position: absolute;
+    bottom: 0;
+    z-index: -5;
+}
+
+.navText {
+    /* border: solid red 1px; */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    z-index: 0;
+    position: absolute;
+    margin: 0px 30%;
+    bottom: 3%;
+    font-family: "Yantramanav", Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.primaryLogo {
+    /* border: solid red 1px; */
+    width: 350px;
+    height: auto;
+    margin: 10px;
+    padding: 20px 50px;
+    display: flex;
+    align-items: flex-start;
+    z-index: 2;
+}
+
+.navWrapper {
+    display: flex;
+    flex-direction: row; 
+    align-items: flex-end;
+    margin: 0;
+    justify-content: space-between;
+}
+.nav-item {
+    border-left: solid white 1px ;
+}
+.navWrapper a {
+    
+    letter-spacing: 0.0625em;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    padding: 0px 25px 0px 25px;
+    margin: 0;
+    font-family: "Yantramanav", Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 300;
+    color: white;
+    position: relative;
+    /* text-decoration: none; */
+}
+
+#navResources {
+    border-right: solid white 1px;
+}
+
+.card {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;  
+}
+
+.card-title {
+    font-family: "Yantramanav", Verdana, Geneva, Tahoma, sans-serif;
+    color: #3A8FD9;
+    font-size: 50px;
+}
+
+.benefits-cards {
+
+
+}
