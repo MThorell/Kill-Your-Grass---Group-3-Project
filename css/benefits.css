@@ -94,6 +94,13 @@ nav {
     border-right: solid white 1px;
 }
 
+.pageTitle {
+    font-family: 'Black Ops One', cursive;
+    font-size: 58px;
+    color: #3C93C5;
+    padding: 45px 45px 10px 85px;
+}
+
 .card {
     max-width: 1000px;
     margin-left: auto;
@@ -101,12 +108,7 @@ nav {
 }
 
 .card-title {
-    font-family: "Yantramanav", Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Black Ops One', cursive;
     color: #3A8FD9;
-    font-size: 50px;
-}
-
-.benefits-cards {
-
-
+    font-size: 30px;
 }
